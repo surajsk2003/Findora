@@ -17,8 +17,6 @@ export const metadata: Metadata = {
   title: "Findora - E-commerce Platform",
   description: "Modern e-commerce platform with secure authentication and seamless user experience",
   manifest: "/manifest.json",
-  themeColor: "#3b82f6",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   keywords: ["e-commerce", "shopping", "secure", "authentication", "next.js"],
   authors: [{ name: "Findora Team" }],
   icons: {
@@ -26,6 +24,15 @@ export const metadata: Metadata = {
     apple: "/icon-192x192.png",
   },
 };
+
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    themeColor: '#3b82f6',
+  }
+}
 
 export default function RootLayout({
   children,
