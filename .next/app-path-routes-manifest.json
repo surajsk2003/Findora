@@ -1,0 +1,15 @@
+{
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/register/route": "/api/auth/register",
+  "/api/seller/profile/route": "/api/seller/profile",
+  "/api/seller/register/route": "/api/seller/register",
+  "/favicon.ico/route": "/favicon.ico",
+  "/auth/signin/page": "/auth/signin",
+  "/auth/signup/page": "/auth/signup",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/seller/dashboard/page": "/seller/dashboard",
+  "/seller/documents/page": "/seller/documents",
+  "/seller/register/page": "/seller/register"
+}
